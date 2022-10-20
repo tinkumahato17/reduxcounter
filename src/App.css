@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  justify-content: center;
+  color: #0556f7;
 }
 
 .App-logo {
@@ -14,14 +16,15 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0556f7;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(185, 26, 26);
+
 }
 
 .App-link {
@@ -35,4 +38,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+.container{
+  justify-content: flex-start;
+  align-items: flex-start;
 }
